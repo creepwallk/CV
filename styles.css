@@ -1,0 +1,157 @@
+body {
+    background-color: #f9f9ff;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info {
+  margin-bottom: 20px;  
+  display: flex;
+}
+
+@media (max-width:700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+
+.logotip {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+}
+
+.container {
+    max-width: 750px;
+    margin:auto;
+    padding-top: 30px;
+}
+
+.bg-1 {
+    background-color: #ffa577;
+}
+.bg-2 {
+    background-color: #896e69;
+}
+.bg-3 {
+    background-color: #d55448;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+.list li {
+    color: #0f141e;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+color: #0f141e;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #0f141e;
+}
+.form-group input,
+.form-group textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding:5px 0 0;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+ margin-right: 0;
+}
+.btn {
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #111;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.bnt:hover {
+    opacity: 0.9;
+}
+/*
+.position {
+    position: relative;   
+    border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+/*
+.box {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightcoral;
+}
